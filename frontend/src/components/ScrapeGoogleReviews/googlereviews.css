@@ -1,0 +1,67 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #2C2C2C; /* Dark background */
+  }
+  
+  h1 {
+    color: #fff; /* White color for heading */
+  }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fff; /* White color for labels */
+  }
+  
+  input {
+    padding: 12px;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #555; /* Darker border for input */
+    background-color: #4A4A4A; /* Lighter grey background for inputs */
+    color: #fff; /* White text inside input */
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Bright blue button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .status-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ff0000; /* Red color for error messages */
+  }
+  
+  .download-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #28a745; /* Green color for download link */
+    text-decoration: none;
+  }
+  
+  .download-link:hover {
+    text-decoration: underline;
+  }
+  
